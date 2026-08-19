@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #090f11;
+  --color-paper: #f8f7f4;
+  --color-sfm: #48006a;
+  --color-coral: #f44b5c;
+  --color-mist: #ebe7ec;
+  --font-sans: "DM Sans", Arial, sans-serif;
+  --font-display: "Outfit", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { background: #e9e7e2; }
+body { margin: 0; min-width: 320px; color: #090f11; background: #e9e7e2; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
