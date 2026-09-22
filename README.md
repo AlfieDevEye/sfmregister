@@ -1,6 +1,25 @@
-# SFM Conference 2026 registration
+# SFM Conference 2026 Registration
 
-A responsive React + Tailwind web application for SFM Conference 2026 registrations and waitlisting. Google Sheets stores registrations; Google Apps Script sends confirmation emails.
+A responsive conference registration and waitlist platform built with React and Tailwind CSS for managing attendee registration efficiently.
+
+### ✨ Key Features
+
+* Online conference registration
+* Waitlist management
+* Responsive interface for desktop and mobile
+* Google Sheets integration for registration records
+* Automated confirmation emails
+* Google Apps Script backend integration
+* Real-time registration data processing
+
+### 🛠️ Tech Stack
+
+* React
+* JavaScript
+* Tailwind CSS
+* Google Sheets
+* Google Apps Script
+* Vite
 
 ## Run locally
 
