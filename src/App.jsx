@@ -61,7 +61,7 @@ function App() {
     <div className="h-2 bg-coral" />
     <header className="mx-auto flex max-w-6xl items-center justify-between px-5 py-6 sm:px-8">
       <img src="/sfm-logo.png" className="h-10 w-auto mix-blend-multiply sm:h-12" alt="SFM" />
-      <div className="hidden items-center gap-2 text-sm font-semibold text-black/65 sm:flex"><CalendarDays size={17} className="text-sfm" /> November 2026 <span className="mx-1 text-black/20">•</span> Location TBA</div>
+      <div className="hidden items-center gap-2 text-sm font-semibold text-black/65 sm:flex"><CalendarDays size={17} className="text-sfm" /> December 2026 <span className="mx-1 text-black/20">•</span> Location: Obafemi Awolowo University, Ile-Ife</div>
     </header>
 
     <section className="relative border-y border-black/10 bg-ink px-5 py-12 text-white sm:px-8 sm:py-16">
