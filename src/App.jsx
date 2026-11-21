@@ -645,8 +645,9 @@ function Confirmation({ name, email, connected }) {
           You’re on the list, {name.split(" ")[0]}.
         </h1>
         <p className="mt-5 text-base leading-relaxed text-black/60">
+        <span>Your details have been received.</span>
           Thank you for registering your interest in SFM Conference 2026.{" "}
-          {/* {connected ? (
+          {connected ? (
             <>
               A confirmation has been sent to{" "}
               <strong className="text-ink">{email}</strong>. We’ll be in touch
@@ -657,7 +658,7 @@ function Confirmation({ name, email, connected }) {
               Email confirmation will be enabled when the registration service
               is connected.
             </>
-          )} */}
+          )}
         </p>
         <div className="mt-8 rounded-2xl border border-black/10 bg-white p-6 shadow-[0_18px_60px_rgba(32,17,38,.08)]">
           <h2 className="font-display text-2xl font-bold tracking-tight">
